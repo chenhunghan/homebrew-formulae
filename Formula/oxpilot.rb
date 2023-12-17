@@ -1,12 +1,12 @@
 class Oxpilot < Formula
   if Hardware::CPU.type == :arm
-    url "https://github.com/chenhunghan/oxpilot/releases/download/v0.2.0/oxpilot-aarch64-apple-darwin.tar.gz"
-    sha256 "5e51586c1cd9bdf6c572ac31d5e8d8aae85af287968992e72bd14b6e43b06823"
+    url "https://github.com/chenhunghan/oxpilot/releases/download/v0.3.0/oxpilot-aarch64-apple-darwin.tar.gz"
+    sha256 "716fd7d6d1a16858996c1301dc168448a6632b949c79c8a6cab6b531d8484fe0"
   else
-    url "https://github.com/chenhunghan/oxpilot/releases/download/v0.2.0/oxpilot-x86_64-apple-darwin.tar.gz"
-    sha256 "3788dfbc6f7c5e7905730ceef853f21ca9d644d98752e84fb1ebef66e272d143"
+    url "https://github.com/chenhunghan/oxpilot/releases/download/v0.3.0/oxpilot-x86_64-apple-darwin.tar.gz"
+    sha256 "37561e151fecbc7a7b8b8e0bfa7aef33a063e4b17340de9eaf74d0ccfd66acae"
   end
-  version "0.2.0"
+  version "0.3.0"
 
   def install
     bin.install "ox"
