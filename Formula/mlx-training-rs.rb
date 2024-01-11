@@ -1,13 +1,13 @@
 class MlxTrainingRs < Formula
-  version "0.2.4"
+  version "0.2.5"
   on_macos do
     on_arm do
-      url "https://github.com/chenhunghan/mlx-training-rs/releases/download/v0.2.4/mlx-training-rs-aarch64-apple-darwin.tar.xz"
-      sha256 "c212aca50eea57ab6693d4a690dba794d4b942e391c28ce371a3dc712ff5b4dd"
+      url "https://github.com/chenhunghan/mlx-training-rs/releases/download/v0.2.5/mlx-training-rs-aarch64-apple-darwin.tar.xz"
+      sha256 "dbc2053386ddef1ddeb70d3e3b8ef90fecc2c6ec8a8066c0895ffb2ad9c2a1c9"
     end
     on_intel do
-      url "https://github.com/chenhunghan/mlx-training-rs/releases/download/v0.2.4/mlx-training-rs-x86_64-apple-darwin.tar.xz"
-      sha256 "ac31f9fee88bceaf0a9ece9c5320fd89eeae0ab52cb064326b7ea34e7c4798d1"
+      url "https://github.com/chenhunghan/mlx-training-rs/releases/download/v0.2.5/mlx-training-rs-x86_64-apple-darwin.tar.xz"
+      sha256 "08ebf066636882a693e3b1f0388e4bae8df6612ad5b270348f1a062d504857a4"
     end
   end
 
